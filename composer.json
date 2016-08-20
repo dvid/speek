@@ -1,0 +1,19 @@
+{
+    "name": "dvid/speek",
+    "description": "Command line text to speakers.",
+    "type": "project",
+    "require": {
+        "symfony/console": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Polido-Pilo",
+            "email": "dvid_pp@yahoo.com"
+        }
+    ]
+}
