@@ -4,8 +4,9 @@
 
 require __DIR__.'/vendor/autoload.php';
 
+use AppBundle\Commands\SpeekCommand;
 use Symfony\Component\Console\Application;
 
 $app = new Application('Speeker Demo', 1.0);
-$app->add(new SpeekCommand);
+$app->add(new SpeekCommand());
 $app->run();
